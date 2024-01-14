@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mountain.css">
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+    <style>
+          nav{
+            text-align: center;
+            background-color: #000;
+            overflow: visible;
+            padding: 25px; 
+            height: 100px;
+            width: 100%;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #e9c56ad0; 
+            padding:20px;
+            margin-right: 0px;
+            font-size: 20px;
+            font-family: serif;
+            margin:2rem;
+            justify-content: space-between;
+        }  
+
+        body{
+             background-image: url(mountain.jpg); 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+
+        nav img{
+            position: relative;
+            width: 15vw;
+            height: 20vh;
+            overflow: visible;
+            max-width: 100%;
+            text-align: center;
+            position: relative;
+            margin-left: -40px;
+            top: -40px;
+        }
+    </style> 
+</head>
+<body>
+
+     <nav>
+      <img src="logo (2).png" alt="Logo" align="left">
+      <a href="temple.html">Temples</a>
+      <a href="rivers.html">Rivers</a>
+      <a href="mountain.html">Mountains</a>
+      <a href="falls.html">WaterFalls</a>
+      <a href="palace.html">Palace</a>
+      <a href="fort.html">Forts</a>
+      <a href="login.html">Login</a>
+    </nav> 
+    
+    <div class="grid">
+        <div class="grid__item">
+          <div class="card"><img class="card__img" src="images/ladakha range.jpg" alt="Snowy Mountains">
+            <div class="card__content">
+              <h1 class="card__header">Ladakh Range</h1>
+              <p class="card__text">The Ladakh Range lies between the Nubra Valley and the city of Leh, running parallel to the Indus River.</p>
+              <button class="card__btn" onclick="redirect1()" type="submit">Explore <span>&rarr;</span></button>
+              <script>
+                function redirect1()
+                {
+                  window.location.href="ladakha.html";
+                }
+              </script>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="grid__item">
+          <div class="card"><img class="card__img" src="images/trisul .jpg">
+            <div class="card__content">
+              <h1 class="card__header">Trisul</h1>
+              <p class="card__text">Trisul is a group of three Himalayan mountain peaks of western Kumaun</p>
+              <button class="card__btn" onclick="redirect2()" type="submit">Explore <span>&rarr;</span></button>
+              <script>
+                function redirect2()
+                {
+                  window.location.href="trisul.html";
+                }
+              </script>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="grid__item">
+          <div class="card"><img class="card__img" src="images/kamet.jpg">
+            <div class="card__content">
+              <h1 class="card__header">Kamet</h1>
+              <p class="card__text">The third-highest peak in India is Kamet Peak. The Kamet is the highest peak in Uttarakhand’s Chamoli District’s Zaskar Mountain Range of the Garhwal area. </p>
+              <button class="card__btn" onclick="redirect3()" type="submit">Explore <span>&rarr;</span></button>
+              <script>
+                function redirect3()
+                {
+                  window.location.href="kamet.html";
+                }
+              </script>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <footer>
+        <div class="footer">
+        <div class="row">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Career</a></li>
+        </ul>
+        </div>
+        
+        <div class="row">
+        INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: cs Raksha and Srushti d dangi 
+        </div>
+        </div>
+        </footer>
+</body>
+</html>
